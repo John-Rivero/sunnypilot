@@ -1236,21 +1236,18 @@ FW_VERSIONS = {
       b'\xf1\x006V2B0_C2\x00\x006V2D4051\x00\x00CSP2N20KL1\x00\x00\x00\x00',
     ],
   },
-  CAR.HYUNDAI_ELANTRA_2022_NON_SCC: {
-    (Ecu.eps, 0x7d4, None): [
-      b'\xf1\x8756310AA030\x00\xf1\x00CN7 MDPS C 1.00 1.06 56310AA030\x00 4CNDC106',
+  CAR.KIA_SPORTAGE_EX_2024_NON_SCC: {
+    (Ecu.combinationMeter, 0x7C6, None): [
+      b'\xf1\x00011',
+    ],
+    (Ecu.cornerRadar, 0x7B7, None): [
+      b'\xf1\x8b #\x12( #\x12)',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00CN7 MFC  AT USA LHD 1.00 1.01 99210-AB000 210205',
+      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1070 690',
     ],
-    (Ecu.abs, 0x7d1, None): [
-      b'\xf1\x8758910-AB500\xf1\x00CN ESC \t 100 \x06\x01 58910-AB500',
-    ],
-    (Ecu.transmission, 0x7e1, None): [
-      b'\xf1\x87CXNQEM4091445JB3g\x98\x98\x89\x99\x87gv\x89wuwgwv\x89hD_\xffx\xff\xff\xff\x86\xeb\xf1\x89HT6VA640A1\xf1\x82CCN0N20NS5\x00\x00\x00\x00\x00\x00',
-    ],
-    (Ecu.engine, 0x7e0, None): [
-      b'\xf1\x870\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf1\x82CNDWD0ANF3XCSG8A',
+    (Ecu.hvac, 0x7B3, None): [
+      b'\xf1\x8b $\x02)',
     ],
   },
 }
